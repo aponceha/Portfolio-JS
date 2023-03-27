@@ -240,11 +240,10 @@ img {
 }  
 
 .work-container {
-    display: inline;
     width: 80%;
     height: 1200px;
     padding: 4px;
-
+    overflow: scroll;
 
     
 }
@@ -270,15 +269,14 @@ img {
 /* -----------------small container debug */
 .small-container {
     
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: space-between;
     width: 100%;
     align-items: center;
     height: 55%;
-    max-height: 48%;
-    flex-wrap: wrap;
-    min-width: 0;
-    flex: 1 1 auto;
+    
 
     
     

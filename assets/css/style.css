@@ -1,0 +1,389 @@
+#page {
+    display:table;
+    height: 100%;
+    background-color: rgb(234, 248, 248);
+}
+
+#sidebar, #content {
+    display: table-cell;
+    float: none;
+    clear: none;
+}
+
+#sidebar {
+    vertical-align: top;
+}
+html {
+    min-height:100vh;
+    width: 100%;
+    background-color: rgb(234, 248, 248);
+    
+ }
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height:100vh;
+    background-color: rgb(234, 248, 248);
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; ;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(234, 248, 248);
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+h1 {
+    font-size: large;
+    align-content: center;
+}
+
+p {
+    font-size: small;
+    font-style: italic;
+    align-content: center;
+}
+p2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    height:auto;
+    margin: 0;
+    padding: 4px;
+    
+}
+
+ul li {
+    display: inline-block;
+    align-items: baseline;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+.label {
+    position: absolute; left: -3px; bottom:20px;
+    display: block;
+    z-index: 4;
+    background-color: lightblue;
+    text-align: center;
+    align-content: center;
+    
+
+    width:150px;
+    height:100px;
+}
+.nav-wrapper {
+    background-color: lavender;
+    width:100%;
+    height:12%;
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-left {
+    display:flex;
+    justify-content: center;;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 46px;
+    font-weight: bolder;
+    color: rgb(70, 57, 182);
+ 
+    
+}
+
+.nav-right {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 20px;
+    align-items: baseline;
+
+}
+    
+.a-nav { 
+    display: flexbox;;
+    padding: 8px;
+    align-self: flex-end;
+}
+
+.menu-break {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    padding:0;
+
+}
+
+.a-work {
+    flex: 50%;
+    max-height: 100%;
+
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.main-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+#about {
+    display: flex;
+    margin: 6px;
+}
+
+
+#contact {
+    display: flex;
+    margin: 6px;
+}
+
+#resume {
+    display: flex;
+    margin: 6px;
+    height: 865px;
+    
+}
+
+.text-box {
+    font-weight: bold;
+    color:rgb(70, 57, 182);
+    display: flex;
+    height: 150px;
+    width: 15%;
+    justify-content: center;
+    border-right: 5px solid black;
+    border-radius: 4px;
+    margin: 6px;
+    align-items: center; 
+    font-size: 28px;
+    min-width: 140px;
+    max-height: 1200px;
+}
+
+.resumeH {
+    height: 800px;
+}
+
+.resumeSheet {
+    width: 100%;
+}
+
+#pdf {
+    width: 100%;
+    height: 100%;
+}
+
+.text-card {
+    margin: 6px;
+    display: inline-flex;
+    width: 81%;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 7px;
+    
+}
+
+
+
+/* work DEBUGGGGG    ------------------------------------------------                 */
+#work {
+    display: flex;
+    flex-direction: row;
+    margin: 6px;
+    height: 1200px;
+    width: 100%;
+    
+    
+}
+
+.work-text-box {
+    color:rgb(70, 57, 182);
+    font-weight: bold;
+    display: flex;
+    height: 1200px;
+    width: 15%;
+    justify-content: center;
+    border-right: 5px solid black;
+    border-radius: 4px;
+    margin: 6px;
+    align-items: center; 
+    font-size: 28px;
+    min-width: 140px;
+    
+
+}  
+
+.work-container {
+    display: inline;
+    width: 80%;
+    height: 1200px;
+    padding: 4px;
+
+
+    
+}
+
+.primary-card {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex: 0 0 400px;
+    width: auto;
+    height:50%;
+
+    border: 6px solid lightblue;
+    margin: 6px;
+
+    
+
+}
+
+
+/* -----------------small container debug */
+.small-container {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 55%;
+    max-height: 48%;
+    flex-wrap: wrap;
+    min-width: 0;
+    flex: 1 1 auto;
+
+    
+    
+   
+
+    
+
+}
+.small-photo {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+
+    
+}
+
+.small-card {
+    position: relative;
+    object-position: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    width: auto;
+    
+    
+    overflow: hidden;
+    max-height: 100%;
+    
+
+    border: 6px solid lightblue;
+    margin: 6px;
+}
+
+.b-work {
+    height: 45%;
+}
+
+/* WORK DEBUG END ------------------------------------------------------ */
+
+@media screen and (max-width: 768px) {
+    main {
+        top: 0;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    nav {
+      flex-direction: column;
+    }
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .nav-wrapper {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: auto;
+        align-items: center;
+        justify-content: center;;
+    }
+    .nav-right {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    ul {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+
+    }
+    .a-nav {
+        display: flex;
+        padding: 6px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cbox {
+        height: 230px;
+
+    }
+    .small-container
+    {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 100%;
+        height: fit-content;
+
+    }
+    .work-container {
+        height:fit-content;
+
+    }
+
+    #work {
+        overflow-y: scroll;
+    }
+
+    .work-text-box {
+        height: 1200px;
+    }
+}
